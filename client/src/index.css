@@ -24,6 +24,11 @@
     background: url("https://res.cloudinary.com/dv0oedkxm/image/upload/v1715462087/singin_lzpfka.png");
     background-size: cover;
   }
+
+  .register-section {
+    background: url("https://res.cloudinary.com/dv0oedkxm/image/upload/v1715462085/register_oewoy2.png");
+    background-size: cover;
+  }
 }
 
 .karnataka-gradient {

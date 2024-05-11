@@ -43,11 +43,6 @@ const Login = () => {
   };
 
   const toggleVisibility = () => setIsVisible(!isVisible);
-
-  const onClickSignin = () => {
-    navigate("/");
-  };
-
   return (
     <section className="login-section flex flex-col">
       <nav className="flex items-center justify-center">

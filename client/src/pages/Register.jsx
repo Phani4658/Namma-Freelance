@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import { IoIosEyeOff, IoIosEye } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+const Register = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => setIsVisible(!isVisible);
@@ -26,18 +26,23 @@ const Login = () => {
         </div>
         <div className="flex flex-col items-center justify-center w-[90%] mb-10 lg:w-[60%] xl:w-[50%] mx-auto">
           <div className="mb-6 lg:mb-12 text-white w-[90%] lg:w-full mx-auto">
-            <h1 className="text-xl lg:text-2xl font-bold">Sign In</h1>
-            <p className="text-gray-500 text-semibold">
-              Type your username and password to sign in
-            </p>
+            <h1 className="text-xl lg:text-2xl font-bold">Register Now</h1>
           </div>
           <form className="text-white w-[90%] lg:w-full mx-auto">
             <Input
-              isRequired
-              type="email"
-              label="Email"
+              type="text"
+              label="First Name"
               className="w-[90%] mb-4 xl:max-w-[75%]"
-              placeholder="abc@gmail.com"
+            />
+            <Input
+              type="text"
+              label="Last Name"
+              className="w-[90%] mb-4 xl:max-w-[75%]"
+            />
+            <Input
+              type="email"
+              label="Mail ID"
+              className="w-[90%] mb-4 xl:max-w-[75%]"
             />
             <Input
               label="Password"
@@ -68,12 +73,12 @@ const Login = () => {
               className="w-[90%] mb-3 xl:max-w-[75%] text-white px-2 py-4  register-button"
               onClick={onClickSignin}
             >
-              Sign in
+              Register Here
             </Button>
             <p className="mr-auto text-white">
               Don&apos;t have an account?{" "}
               <Link className="w-[90%] inline mb-4 xl:max-w-[75%] underline">
-                Register Here
+                Sign in Here
               </Link>
             </p>
           </form>
@@ -83,4 +88,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

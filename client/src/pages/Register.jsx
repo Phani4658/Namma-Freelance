@@ -16,14 +16,7 @@ const Register = () => {
   return (
     <section className="login-section flex flex-col">
       <Navbar />
-      <section className="flex-1 flex flex-col lg:flex-row justify-between items-center gap-10 xl:px-[10%]">
-        <div className="flex items-center justify-center h-full">
-          <img
-            src="https://res.cloudinary.com/dv0oedkxm/image/upload/v1715425817/login_rftcge.png"
-            alt="signin-signup-image"
-            className="w-[80%] lg:w-[100%] mx-auto"
-          />
-        </div>
+      <section className="flex-1 flex flex-col lg:flex-row justify-end items-center gap-10 xl:px-[10%]">
         <div className="flex flex-col items-center justify-center w-[90%] mb-10 lg:w-[60%] xl:w-[50%] mx-auto">
           <div className="mb-6 lg:mb-12 text-white w-[90%] lg:w-full mx-auto">
             <h1 className="text-xl lg:text-2xl font-bold">Register Now</h1>

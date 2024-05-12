@@ -14,6 +14,10 @@ In the ever-evolving digital world, We are a freelance platform empowering the p
 
 ![Namma Freelance](https://res.cloudinary.com/dv0oedkxm/image/upload/v1715503471/8d8d009d-b144-4762-8b3c-b422b683b196_lzojio.jpg)
 
+Checkout Figma Prototype Here: ![Checkout full plan here](https://www.figma.com/proto/ihGGRlfvnlowBVEbW6zIKL/Dark-Theme-Web-UI-Design-%7C-Freelance-(Community)?page-id=2%3A513&type=design&node-id=2-1827&viewport=751%2C262%2C0.12&t=BFwEXrZBkNBhCAVq-1&scaling=scale-down&starting-point-node-id=2%3A1827)
+
+
+
 ## Local Development
 
 ### Prerequisites:

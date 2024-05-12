@@ -48,7 +48,7 @@ const Register = () => {
       const response = await fetch(apiUrl, options);
       if (response.ok) {
         // Registration successful
-        navigate("/"); // Redirect to homepage or login page
+        navigate("/create-profile"); // Redirect to homepage or login page
       } else {
         // Registration failed
         const errorData = await response.json();
